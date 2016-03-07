@@ -129,7 +129,7 @@ exec('ls', function(err, stdout){
 	console.log(stdout.toString().trim());
 });
 */
-
+/*
 var spawn = require("child_process").spawn;
 var cp = spawn("node", ["temp"]);
 
@@ -145,9 +145,12 @@ cp.on("close",function(){
 setTimeout(function(){
 	cp.stdin.write("stop");
 },4000);
+*/
 
+var fs = require('fs');
+var files = fs.readdirSync("./lib");
 
-
+console.log(files);
 
 
 
