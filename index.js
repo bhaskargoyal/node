@@ -146,12 +146,12 @@ setTimeout(function(){
 	cp.stdin.write("stop");
 },4000);
 */
-
+/*
 var fs = require('fs');
 var files = fs.readdirSync("./lib");
 
 console.log(files);
-
+*/
 
 
 

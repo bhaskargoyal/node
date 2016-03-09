@@ -1,0 +1,27 @@
+{
+  "name": "first-app",
+  "version": "1.0.0",
+  "description": "This is my first try to connect to mongoDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhaskargoyal/node.git"
+  },
+  "keywords": [
+    "mongo",
+    "first"
+  ],
+  "author": "Bhaskar Goyal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhaskargoyal/node/issues"
+  },
+  "homepage": "https://github.com/bhaskargoyal/node#readme",
+  "dependencies": {
+    "mysql": "^2.10.2"
+  }
+}
